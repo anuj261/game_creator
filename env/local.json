@@ -1,0 +1,24 @@
+{
+  "port": 9999,
+  "encryption_key": "randomPlan@1239287dk",
+  "mongo": {
+    "replicas": [
+      "127.0.0.1:27017"
+    ],
+    "database": "Game",
+    "username": "admin",
+    "password": "test1234",
+    "options": {
+      "socketTimeoutMS": 0,
+      "autoReconnect": true,
+      "keepAlive": true,
+      "reconnectInterval": 1000,
+      "bufferMaxEntries": 0,
+      "readPreference": "secondaryPreferred",
+      "poolSize": 8,
+      "w": "majority",
+      "connectTimeoutMS": 20000,
+      "useNewUrlParser": true
+    }
+  }
+}
